@@ -17,6 +17,7 @@ class Activities extends Component {
         <div className="Activities__row">
           <div className="Activities__col Activities__col--chamber">
             <h1>The Secret Chamber</h1>
+            <h1>What do we do at IC KMITL?</h1>
             <img
               className="ic-icon"
               src={require("./images/icon_chamber-01.png")}
@@ -28,7 +29,8 @@ class Activities extends Component {
             </p>
           </div>
           <div className="Activities__col Activities__col--hat">
-            <h1>Sorting hat, where do I belong?</h1>
+            <h1>Sorting hat,</h1>
+            <h1>where do I belong?</h1>
             <img
               className="ic-icon"
               src={require("./images/icon_sort-01.png")}
