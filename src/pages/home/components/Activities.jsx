@@ -40,11 +40,9 @@ class Activities extends Component {
               - 15.00 ของทุกวัน)
             </p>
             <a href="https://goo.gl/forms/w87reXp2v7Leehrz1" target="_blank">
-              <button>
-              ลงทะเบียน
-            </button>
-          </a>
-         </div>
+              <button>ลงทะเบียน</button>
+            </a>
+          </div>
           <div className="Activities__col Activities__col--move">
             <h1>Abracadabra, make it move!</h1>
             <img
@@ -54,14 +52,12 @@ class Activities extends Component {
             <p>
               พบกับ workshop การเขียนโปรแกรม เพื่อคุมคุมระบบต่าง ๆ
               ผ่านสิ่งที่เรียกว่า Internet of Things(IoT)
-              เป็นระยะเวลาหนึ่งวันเต็ม (ลงทะเบียนผ่านเว็บไซด์
+              เป็นระยะเวลาหนึ่งวันเต็ม (ลงทะเบียนผ่านเว็บไซต์
               จัดที่วิทยาลัยนานาชาติ เวลา 09.30 - 16.00)
             </p>
             <a href="https://goo.gl/forms/w87reXp2v7Leehrz1" target="_blank">
-              <button>
-              ลงทะเบียน
-            </button>
-          </a>
+              <button>ลงทะเบียน</button>
+            </a>
           </div>
         </div>
       </section>
