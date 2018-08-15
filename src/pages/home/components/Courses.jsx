@@ -37,7 +37,7 @@ class Courses extends Component {
           </div>
           <div className="Courses__main-col">
             <a
-              href="https://www.ic.kmitl.ac.th/index.php/programs/undergraduate/software-engineering"
+              href="https://www.ic.kmitl.ac.th/index.php/programs/undergraduate/engineering-and-technology-management"
               target="_blank"
             >
               <div className="Courses__col course-icon">
@@ -45,7 +45,7 @@ class Courses extends Component {
               </div>
             </a>
             <a
-              href="https://www.ic.kmitl.ac.th/index.php/programs/undergraduate/software-engineering"
+              href="https://www.ic.kmitl.ac.th/index.php/programs/undergraduate/engineering-and-technology-management"
               target="_blank"
             >
               <div className="Courses__col course-content">
