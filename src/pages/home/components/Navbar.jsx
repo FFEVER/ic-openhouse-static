@@ -3,6 +3,11 @@ import $ from "jquery";
 import MoveTo from "moveto";
 
 class Navbar extends Component {
+  constructor(props){
+    super(props);
+    this.onLinkClicked = this.onLinkClicked.bind(this);
+    this.onCollapesClicked = this.onCollapesClicked.bind(this);
+  }
   componentWillMount() {
     this.navChangeColor();
   }
@@ -10,6 +15,9 @@ class Navbar extends Component {
   onLinkClicked(event) {
     const moveTo = new MoveTo();
     const target = document.getElementById(event.target.dataset.id);
+    this.onCollapesClicked(event);
+    const $navbarCollapse = $(".navbar-collapse");
+    $navbarCollapse.collapse("hide");
     moveTo.move(target);
   }
 
