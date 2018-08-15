@@ -13,7 +13,7 @@ $bootstrap-width-desktop: 1200px;
 
 @font-face {
   font-family: "Circular";
-  src: asset_url("fonts/Circular.ttf") format("truetype");
+  src: url("./fonts/Circular.ttf") format("truetype");
 }
 
 html {
