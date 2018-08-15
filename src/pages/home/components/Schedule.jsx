@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MagicBox from "./shared/MagicBox";
 
-class Info extends Component {
+class Schedule extends Component {
   // <img className="ic-icon" src={require("./images/ic-icon.png")} />
   render() {
     return (
@@ -15,23 +15,23 @@ class Info extends Component {
           contentBorderColor="#4b5b71"
           width="400px"
         />
-        <p>กำหนดการรับสมัครน้อง ๆ เข้า workshop</p>
+        <h1>กำหนดการรับสมัครน้อง ๆ เข้า workshop</h1>
         <div className="Schedule__row">
           <div className="Schedule__col">
             <img src={require("./images/note.svg")} />
             <p>เปิดรับสมัคร</p>
-            <small>11 - 17 สิงหาคม 2018</small>
+            <small>16 - 19 สิงหาคม 2018</small>
           </div>
           <div className="Schedule__col">
             <img src={require("./images/megaphone.svg")} />
             <p>ประกาศผล</p>
             <p>การคัดเลือกเข้า workshop</p>
-            <small>19 สิงหาคม 2018</small>
+            <small>20 สิงหาคม 2018</small>
           </div>
           <div className="Schedule__col">
             <img src={require("./images/payment.svg")} />
             <p>ชำระเงิน</p>
-            <small>19 - 21 สิงหาคม 2018</small>
+            <small>ภายใน 21 สิงหาคม 2018</small>
           </div>
           <div className="Schedule__col">
             <img src={require("./images/coding.svg")} />
@@ -45,4 +45,4 @@ class Info extends Component {
   }
 }
 
-export default Info;
+export default Schedule;
