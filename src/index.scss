@@ -13,7 +13,7 @@ $bootstrap-width-desktop: 1200px;
 
 @font-face {
   font-family: "Circular";
-  src: asset_url("fonts/Circular.ttf") format("truetype");
+  src: url("./fonts/Circular.ttf") format("truetype");
 }
 
 html {
@@ -115,13 +115,13 @@ table {
   }
 
   &.fixed-top {
+    transition: background-color 200ms linear;
+    -webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
     &.scrolled {
       background-color: #29304d !important;
-      transition: background-color 200ms linear;
-      -webkit-transition: color 200ms linear;
-      -moz-transition: color 200ms linear;
-      -o-transition: color 200ms linear;
-      -ms-transition: color 200ms linear;
       color: $ghostwhite !important;
     }
   }
@@ -506,10 +506,10 @@ table {
   }
 
   h1 {
-    font-size: 30px !important;
+    font-size: 25px !important;
 
     @media (max-width: $ic-width-mobile) {
-      font-size: 27px !important;
+      font-size: 22px !important;
     }
   }
 
@@ -626,6 +626,18 @@ table {
   padding: 60px 40px;
   text-align: center;
   position: relative;
+  
+  h1 {
+    font-size: 30px;
+
+    @media only screen and (max-width: $ic-width-tablet) {
+      font-size: 27px;
+    }
+
+    @media only screen and (max-width: $ic-width-mobile) {
+      font-size: 24px;
+    }
+  }
 
   &__row {
     align-items: flex-start;

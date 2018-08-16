@@ -34,7 +34,7 @@ class Footer extends Component {
               <li className="var_nav">
                 <div className="link_bg link_bg--phone" />
                 <div className="link_title">
-                  <a href="#">
+                  <a href="tel:064-963-3383">
                     <span>064 963 3383 พี่ทศ</span>
                   </a>
                   <div className="icon">
@@ -45,7 +45,7 @@ class Footer extends Component {
               <li className="var_nav">
                 <div className="link_bg link_bg--email" />
                 <div className="link_title">
-                  <a href="#">
+                  <a href="mailto:thossakrai@outlook.com">
                     <span>thossakrai@outlook.com</span>
                   </a>
                   <div className="icon">

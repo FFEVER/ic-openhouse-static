@@ -3,6 +3,11 @@ import $ from "jquery";
 import MoveTo from "moveto";
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.onLinkClicked = this.onLinkClicked.bind(this);
+    this.onCollapesClicked = this.onCollapesClicked.bind(this);
+  }
   componentWillMount() {
     this.navChangeColor();
   }
@@ -10,16 +15,27 @@ class Navbar extends Component {
   onLinkClicked(event) {
     const moveTo = new MoveTo();
     const target = document.getElementById(event.target.dataset.id);
+    this.onCollapesClicked(event);
+    const $navbarCollapse = $(".navbar-collapse");
+    $navbarCollapse.collapse("hide");
     moveTo.move(target);
   }
 
   onCollapesClicked(event) {
     // Hide/show animation hamburger function
+    var $nav = $(".navbar.fixed-top");
+    var $hero = $(".Hero");
+    var $nav = $(".navbar.fixed-top");
     const $icon = $(".animated-icon1");
     if ($icon.hasClass("open")) {
       $icon.removeClass("open");
+      var top = $("html").offset().top;
+      if (top > $hero.height() - $nav.height()) {
+        $nav.removeClass("scrolled");
+      }
     } else {
       $icon.addClass("open");
+      $nav.addClass("scrolled");
     }
   }
 
