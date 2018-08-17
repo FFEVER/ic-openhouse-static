@@ -46,7 +46,8 @@ class Activities extends Component {
             </a>
           </div>
           <div className="Activities__col Activities__col--move">
-            <h1>Abracadabra, make it move!</h1>
+            <h1>Abracadabra, make it move</h1>
+            <h1>Let's do IoT!</h1>
             <img
               className="ic-icon"
               src={require("./images/icon_magic-01.png")}
@@ -56,6 +57,8 @@ class Activities extends Component {
               ผ่านสิ่งที่เรียกว่า Internet of Things(IoT)
               เป็นระยะเวลาหนึ่งวันเต็ม (ลงทะเบียนผ่านเว็บไซต์
               จัดที่วิทยาลัยนานาชาติ เวลา 09.30 - 16.00)
+              <br />
+              *ฟรี! <strong>ของขวัญ</strong> สุดพิเศษ
             </p>
             <a href="https://goo.gl/forms/w87reXp2v7Leehrz1" target="_blank">
               <button>ลงทะเบียน</button>

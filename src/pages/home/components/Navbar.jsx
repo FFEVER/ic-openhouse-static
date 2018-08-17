@@ -25,12 +25,11 @@ class Navbar extends Component {
     // Hide/show animation hamburger function
     var $nav = $(".navbar.fixed-top");
     var $hero = $(".Hero");
-    var $nav = $(".navbar.fixed-top");
     const $icon = $(".animated-icon1");
     if ($icon.hasClass("open")) {
       $icon.removeClass("open");
-      var top = $("html").offset().top;
-      if (top > $hero.height() - $nav.height()) {
+      var top = $(window).scrollTop();
+      if (top <= $hero.height() - $nav.height()) {
         $nav.removeClass("scrolled");
       }
     } else {

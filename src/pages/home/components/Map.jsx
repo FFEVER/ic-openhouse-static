@@ -12,12 +12,14 @@ class Map extends Component {
   }
 
   onTransIconClicked(event) {
+    var $allTrans = $(".trans-content");
     var $iconRow = $(`#${event.target.dataset.id}-icon`);
     var $contentRow = $(`#${event.target.dataset.id}-content`);
     var $prevIconRow = $(`#${this.state.activeIconId}-icon`);
     var $prevContentRow = $(`#${this.state.activeIconId}-content`);
 
     if (!$iconRow.hasClass("active")) {
+      $allTrans.scrollTop = 0;
       $prevIconRow.removeClass("active");
       $prevContentRow.removeClass("show");
       $iconRow.addClass("active");
