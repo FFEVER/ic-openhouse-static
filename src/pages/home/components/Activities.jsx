@@ -41,7 +41,7 @@ class Activities extends Component {
               อาคารเฉลิมพระเกียรติ 55 พรรษาฯ ชั้น 8 เวลา 11.00 -12.00 และ 14.00
               - 15.00 ของทุกวัน)
             </p>
-            <a href="https://goo.gl/forms/w87reXp2v7Leehrz1" target="_blank">
+            <a href="https://goo.gl/forms/0IpseBqxoiUltAfy2" target="_blank">
               <button>ลงทะเบียน</button>
             </a>
           </div>
@@ -60,7 +60,7 @@ class Activities extends Component {
               <br />
               *ฟรี! <strong>ของขวัญ</strong> สุดพิเศษ
             </p>
-            <a href="https://goo.gl/forms/w87reXp2v7Leehrz1" target="_blank">
+            <a href="https://goo.gl/forms/W1jUtJCMcqSCT1jO2" target="_blank">
               <button>ลงทะเบียน</button>
             </a>
           </div>
